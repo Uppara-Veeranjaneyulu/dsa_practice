@@ -24,7 +24,7 @@ int main() {
 	}
 	
 	selection_sort(arr,n);
-	
+	cout << "sorted_array : ";
 	for(int i=0;i<n;i++) {
 		cout << arr[i] << " ";
 	}
